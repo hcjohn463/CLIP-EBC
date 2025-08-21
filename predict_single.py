@@ -33,9 +33,9 @@ mean = (0.485, 0.456, 0.406)
 std = (0.229, 0.224, 0.225)
 
 # 你的圖片路徑
-img_path = "1367.jpg"  # 改成你的圖片檔名
+img_path = "examples/1367.jpg"  # 改成你的圖片檔名
 # 權重路徑
-ckpt_path = "best_mae.pth"  # 改成你的權重檔案
+ckpt_path = "weights/best_mae.pth"  # 改成你的權重檔案
 
 # 讀取 config
 with open(f"configs/reduction_{reduction}.json", "r") as f:
